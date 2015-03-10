@@ -32,12 +32,25 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   margin: 0 auto;
+
+  width: 200px;
 }
 
 #override #portfoliolist .caption {
   bottom: 0px;
 }
 
-#override span.press-logo {
+#override .press-logo {
+  width: 200px;
+  height: 200px;
+}
+
+#override #funding-logos {
   text-align: center;
+}
+
+#override .partner-logo {
+  text-align: center;
+  width: 300px;
+  /*height: 250px;*/
 }
