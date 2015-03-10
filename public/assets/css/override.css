@@ -14,3 +14,7 @@
 #override section {
   padding: 50px 0;
 }
+
+#override aside.cta-quote {
+  background-attachment: scroll;
+}
