@@ -37,3 +37,7 @@
 #override #portfoliolist .caption {
   bottom: 0px;
 }
+
+#override span.press-logo {
+  text-align: center;
+}
