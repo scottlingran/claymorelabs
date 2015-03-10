@@ -752,7 +752,7 @@ aside.cta-quote span.quote {
 #portfoliolist .portfolio .portfolio-wrapper {
   overflow: hidden;
   position: relative !important;
-  background: #222222;
+  /*background: #222222;*/
   cursor: pointer;
 }
 #portfoliolist .portfolio .portfolio-wrapper img {
@@ -772,7 +772,7 @@ aside.cta-quote span.quote {
   bottom: -75px;
 }
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-bg {
-  background: #41c4ab;
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -787,10 +787,12 @@ aside.cta-quote span.quote {
 }
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-text a.text-title {
   color: white;
+  font-size: 1.5em;
 }
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-text .text-category {
   display: block;
-  font-size: 12px;
+  /*font-size: 1.5em;*/
+  /*font-size: 12px;*/
 }
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
