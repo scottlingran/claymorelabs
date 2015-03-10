@@ -1,0 +1,12 @@
+#override .navbar {
+  border-bottom: none;
+  border-radius: 0px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#override header {
+  background-attachment: scroll;
+  height: 91%;
+}

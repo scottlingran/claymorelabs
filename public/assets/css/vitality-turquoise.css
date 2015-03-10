@@ -34,9 +34,9 @@ body {
 }
 a {
   color: #41c4ab;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 a:hover,
 a:focus {
@@ -143,9 +143,9 @@ hr.colored {
   color: white;
   opacity: 1;
   text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-inverse .navbar-brand:hover,
@@ -175,9 +175,9 @@ hr.colored {
   }
   .navbar-fixed-top {
     padding: 15px 0;
-    -webkit-transition: padding 0.5s;
-    -moz-transition: padding 0.5s;
-    transition: padding 0.5s;
+    -webkit-transition: padding 0.1s;
+    -moz-transition: padding 0.1s;
+    transition: padding 0.1s;
   }
   .navbar-fixed-top .navbar-brand:hover {
     opacity: 0.5;
@@ -246,9 +246,9 @@ header .scroll-down .btn {
   letter-spacing: normal;
   color: white;
   font-size: 30px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 header .scroll-down .btn:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -406,9 +406,9 @@ aside.cta-quote span.quote {
   bottom: 0;
   background-color: #41c4ab !important;
   color: white !important;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .testimonials .testimonials-carousel .owl-controls .owl-prev:hover,
 .testimonials .testimonials-carousel .owl-controls .owl-next:hover {
@@ -484,9 +484,9 @@ aside.cta-quote span.quote {
   bottom: 0;
   background-color: #41c4ab !important;
   color: white !important;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .about-carousel .owl-controls .owl-prev:hover,
 .about-carousel .owl-controls .owl-next:hover {
@@ -599,9 +599,9 @@ aside.cta-quote span.quote {
   bottom: 0;
   background-color: #41c4ab !important;
   color: white !important;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .portfolio-carousel .owl-controls .owl-prev:hover,
 .portfolio-carousel .owl-controls .owl-next:hover {
@@ -733,9 +733,9 @@ aside.cta-quote span.quote {
   color: #222222;
   background: transparent;
   border: 1px solid #222222;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .portfolio-filter #filters li .filter.active {
   background-color: #41c4ab;
@@ -896,10 +896,10 @@ aside.cta-quote span.quote {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.5s ease,opacity 0.5s ease;
-  -moz-transition: top 0.5s ease,opacity 0.5s ease;
-  -ms-transition: top 0.5s ease,opacity 0.5s ease;
-  transition: top 0.5s ease,opacity 0.5s ease;
+  -webkit-transition: top 0.1s ease,opacity 0.1s ease;
+  -moz-transition: top 0.1s ease,opacity 0.1s ease;
+  -ms-transition: top 0.1s ease,opacity 0.1s ease;
+  transition: top 0.1s ease,opacity 0.1s ease;
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
@@ -951,9 +951,9 @@ footer.footer .copyright p.small {
   color: white;
   border: 1px solid white;
   background: transparent;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .btn-outline-light:hover,
 .btn-outline-light:focus {
@@ -965,9 +965,9 @@ footer.footer .copyright p.small {
   color: #222222;
   border: 1px solid #222222;
   background: transparent;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
