@@ -19,9 +19,17 @@
   background-attachment: scroll;
 }
 
-#override img.img-responsive {
+#override footer.footer {
+  background-attachment: scroll;
+}
+
+#override img.profile-pic {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   margin: 0 auto;
+}
+
+#override #portfoliolist .caption {
+  bottom: 0px;
 }

@@ -13,7 +13,7 @@
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+        }, 500, 'easeInOutExpo');
         event.preventDefault();
     });
 
@@ -117,24 +117,24 @@
         hoverEffect: function() {
 
             // Simple parallax effect
-            $('#portfoliolist .portfolio').hover(
-                function() {
-                    $(this).find('.caption').stop().animate({
-                        bottom: 0
-                    }, 200, 'easeOutQuad');
-                    $(this).find('img').stop().animate({
-                        top: -20
-                    }, 300, 'easeOutQuad');
-                },
-                function() {
-                    $(this).find('.caption').stop().animate({
-                        bottom: -75
-                    }, 200, 'easeInQuad');
-                    $(this).find('img').stop().animate({
-                        top: 0
-                    }, 300, 'easeOutQuad');
-                }
-            );
+            // $('#portfoliolist .portfolio').hover(
+            //     function() {
+            //         $(this).find('.caption').stop().animate({
+            //             bottom: 0
+            //         }, 200, 'easeOutQuad');
+            //         $(this).find('img').stop().animate({
+            //             top: -20
+            //         }, 300, 'easeOutQuad');
+            //     },
+            //     function() {
+            //         $(this).find('.caption').stop().animate({
+            //             bottom: -75
+            //         }, 200, 'easeInQuad');
+            //         $(this).find('img').stop().animate({
+            //             top: 0
+            //         }, 300, 'easeOutQuad');
+            //     }
+            // );
 
         }
 
@@ -150,7 +150,7 @@ $(document).ready(function() {
     if (isPhoneDevice) {
         //mobile
     } else {
-        //desktop               
+        //desktop
         // Initialize WOW.js
         wow = new WOW({
             offset: 50
