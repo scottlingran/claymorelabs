@@ -31,116 +31,14 @@
         $('.navbar-toggle:visible').click();
     });
 
-    // Owl Carousel Settings
-    $(".about-carousel").owlCarousel({
-        items: 3,
-        navigation: true,
-        pagination: false,
-        navigationText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
-        ],
+    $('#portfoliolist').mixitup({
+        targetSelector: '.portfolio',
+        filterSelector: '.filter',
+        effects: ['fade'],
+        easing: 'snap',
+        // call the hover effect
+        // onMixEnd: filterList.hoverEffect()
     });
-
-    $(".portfolio-carousel").owlCarousel({
-        singleItem: true,
-        navigation: true,
-        pagination: false,
-        navigationText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
-        ],
-        autoHeight: true,
-        mouseDrag: false,
-        touchDrag: false,
-        transitionStyle: "fadeUp"
-    });
-
-    $(".testimonials-carousel").owlCarousel({
-        singleItem: true,
-        navigation: true,
-        pagination: true,
-        autoHeight: true,
-        navigationText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
-        ],
-        transitionStyle: "backSlide"
-    });
-
-    $(".portfolio-gallery").owlCarousel({
-        items: 3,
-    });
-
-    // Magnific Popup jQuery Lightbox Gallery Settings
-    $('.gallery-link').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-        image: {
-            titleSrc: 'title'
-        }
-    });
-
-    // Formstone Wallpaper - Video Background Settings
-    $("header.video").wallpaper({
-        source: {
-            poster: "assets/img/bg-mobile-fallback.jpg",
-            mp4: "assets/mp4/camera.mp4"
-        }
-    });
-
-    // Scrollspy: Highlights the navigation menu items while scrolling.
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    })
-
-    // Portfolio Filtering Scripts & Hover Effect
-    var filterList = {
-        init: function() {
-
-            // MixItUp plugin
-            // http://mixitup.io
-            $('#portfoliolist').mixitup({
-                targetSelector: '.portfolio',
-                filterSelector: '.filter',
-                effects: ['fade'],
-                easing: 'snap',
-                // call the hover effect
-                onMixEnd: filterList.hoverEffect()
-            });
-
-        },
-
-        hoverEffect: function() {
-
-            // Simple parallax effect
-            // $('#portfoliolist .portfolio').hover(
-            //     function() {
-            //         $(this).find('.caption').stop().animate({
-            //             bottom: 0
-            //         }, 200, 'easeOutQuad');
-            //         $(this).find('img').stop().animate({
-            //             top: -20
-            //         }, 300, 'easeOutQuad');
-            //     },
-            //     function() {
-            //         $(this).find('.caption').stop().animate({
-            //             bottom: -75
-            //         }, 200, 'easeInQuad');
-            //         $(this).find('img').stop().animate({
-            //             top: 0
-            //         }, 300, 'easeOutQuad');
-            //     }
-            // );
-
-        }
-
-    };
-
-    filterList.init();
 
 })(jQuery); // End of use strict
 
@@ -152,9 +50,9 @@ $(document).ready(function() {
     } else {
         //desktop
         // Initialize WOW.js
-        wow = new WOW({
-            offset: 50
-        })
-        wow.init();
+        // wow = new WOW({
+        //     offset: 50
+        // })
+        // wow.init();
     }
 });
