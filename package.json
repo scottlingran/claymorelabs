@@ -1,0 +1,14 @@
+{
+  "name": "generic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "author": "Scott Li <scott@helloblock.io> (https://helloblock.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.4.1",
+    "express": "^4.12.2",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.5.1"
+  }
+}
