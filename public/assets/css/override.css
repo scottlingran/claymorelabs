@@ -6,6 +6,10 @@
   padding-bottom: 10px;
 }
 
+#override .navbar a h4 {
+  margin-top: 16px;
+}
+
 #override header {
   background-attachment: scroll;
   height: 91%;
