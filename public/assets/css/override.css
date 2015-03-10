@@ -18,3 +18,10 @@
 #override aside.cta-quote {
   background-attachment: scroll;
 }
+
+#override img.img-responsive {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+}
