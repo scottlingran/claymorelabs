@@ -15,6 +15,12 @@
   height: 91%;
 }
 
+@media (max-width: 767px) {
+  #override header  {
+    padding-top: 20px;
+  }
+}
+
 #override section {
   padding: 50px 0;
 }
