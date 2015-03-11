@@ -18,6 +18,11 @@
 @media (max-width: 767px) {
   #override header  {
     padding-top: 20px;
+    height: 85%;
+  }
+
+  #override header .brand-name {
+    font-size: 40px;
   }
 }
 
