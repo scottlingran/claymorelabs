@@ -24,6 +24,10 @@
   #override header .brand-name {
     font-size: 40px;
   }
+
+  #override .scroll-down {
+    display: none;
+  }
 }
 
 #override section {
