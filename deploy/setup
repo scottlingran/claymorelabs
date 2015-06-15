@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+var execSync = require('child_process').execSync
+var fs = require("fs")
+
+var domain = process.argv[2] || "beta.foxtype.com"
+
+var policy = fs.readFileSync(__dirname + "/_policy.template.json").toString()
+policy = policy.replace(/PLACEHOLDER/g, domain)
+fs.writeFileSync(__dirname + "/policy.json", policy)
+
+var website = fs.readFileSync(__dirname + "/_website.template.json").toString()
+website = website.replace(/PLACEHOLDER/g, domain)
+fs.writeFileSync(__dirname + "/website.json", website)
+
+execSync("aws s3 mb s3://" + domain + "")
+execSync("aws s3api put-bucket-policy --bucket " + domain + " --policy file://deploy/policy.json")
+execSync("aws s3api put-bucket-website --bucket " + domain + " --website-configuration file://deploy/website.json")

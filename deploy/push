@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+var execSync = require('child_process').execSync
+var domain = process.argv[2] ||  "beta.foxtype.com"
+execSync("aws s3 sync --delete dist s3://"+ domain)
+console.log("DEPLOYED: ", domain + ".s3-website-us-east-1.amazonaws.com");
