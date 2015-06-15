@@ -437,7 +437,7 @@ aside.cta-quote span.quote {
 }
 .about-carousel .item .caption {
   padding: 15px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   width: 100%;
   margin: auto;
   position: absolute;
@@ -461,7 +461,7 @@ aside.cta-quote span.quote {
   margin-top: 5px;
 }
 .about-carousel .item .caption ul.social li a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
 }
 .about-carousel .item .caption ul.social li a:hover,
 .about-carousel .item .caption ul.social li a:focus {
@@ -918,16 +918,17 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 1px black;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 50px 0 20px;
+  padding: 0;
 }
 footer.footer a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
 }
 footer.footer a:hover {
   color: white;
